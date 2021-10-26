@@ -1,0 +1,89 @@
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 16px;
+  font-family: Verdana;
+  min-height: 100vh;
+  background-color: rgb(247, 253, 255);
+}
+
+.new-task-form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 85px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px 20px 20px;
+}
+
+.new-task-form input {
+  height: 50%;
+  width: 100%;
+  border-radius: 12px;
+  border: 2px solid rgb(68, 56, 56);
+  font-size: 14px;
+  font-family: Verdana;
+  text-align: center;
+}
+
+.new-task-form button {
+  width: 30%;
+  min-width: fit-content;
+  height: 28px;
+  font-size: 12px;
+  border-radius: 12px;
+  border: 2px solid rgb(68, 56, 56);
+}
+
+.toDoItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px;
+  padding: 5px;
+  width: 60%;
+  min-height: 50px;
+  border-radius: 12px;
+  border: 2px solid rgb(68, 56, 56);
+  background-color: rgb(184, 247, 215);
+}
+
+.toDoItem input {
+  width: 15px;
+  min-width: fit-content;
+}
+
+.toDoItem .task-title {
+  width: 60%;
+  -ms-word-break: break-all;
+  word-break: break-all;
+}
+
+.toDoItem button {
+  width: 15%;
+  min-width: fit-content;
+  height: 24px;
+  font-size: 10px;
+  border-radius: 12px;
+  border: 2px solid rgb(68, 56, 56);
+  margin: 3px;
+}
+
+.toDoItem form {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.toDoItem form input {
+  width: 60%;
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 12px;
+  border: 2px solid rgb(68, 56, 56);
+  font-size: 14px;
+  font-family: Verdana;
+  text-align: center;
+}
